@@ -468,8 +468,9 @@ footer {
     }
 
     .home-image {
-        width: 230px;
-        margin-top: 18px;
+        width: min(230px, 100%);
+        justify-self: center;
+        margin: 18px auto 0;
     }
 
     .section {
